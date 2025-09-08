@@ -30,6 +30,9 @@ Instructions to train a YOLO model utilizing GPU(NVIDIA)
 
 ### For training :
 	Note: Please run the command from project directory. For example, if project is created in 'C:\yolo_training' then while running the command line be sure that you are in 'C:\yolo_training'.
-	for classification : yolo classify train data=mnist160 model=yolov8n-cls.pt epochs=100 imgsz=64
-	for detection : yolo task=detect mode=train model=yolov8n.pt data= data.yaml epochs=100 imgsz=640 plots=True device=0
-	for segmentation : yolo task=segment mode=train model=yolov8n-seg.pt data= data.yaml epochs=100 imgsz=640 plots=True device=0
+	for classification : 
+ #### yolo classify train data=mnist160 model=yolov8n-cls.pt epochs=100 imgsz=64
+	for detection : 
+ #### yolo task=detect mode=train model=yolov8n.pt data= data.yaml epochs=100 imgsz=640 plots=True device=0
+	for segmentation : 
+ #### yolo task=segment mode=train model=yolov8n-seg.pt data= data.yaml epochs=100 imgsz=640 plots=True device=0
